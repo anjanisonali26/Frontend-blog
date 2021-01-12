@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-image: url(../image/flower.jpg);
+    align-items: center;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+  }
+  .container {
+    position: relative;
+    margin-top: 100px;
+    width: 450px;
+    height: auto;
+    background-color: rgb(209, 150, 186);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    border-radius: 5px;
+    color: white;
+  }
+  .label {
+    padding: 20px 130px;
+    font-size: 35px;
+    font-weight: 35px;
+    color: #130f40;
+  }
+  .login-form {
+    padding: 20px 40px;
+  }
+  .login-form .font {
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0;
+  }
+  .login-form input {
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 10px;
+  }
+  .login-form .font2 {
+    margin-top: 30px;
+  }
+  .login-form button {
+    margin: 45px 0 30px 0;
+    height: 45px;
+    width: 365px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    background-color: palevioletred;
+    border-radius: 3px;
+    border: 1px solid red;
+    transition: 0.5s;
+  }
+  .login-form button:hover {
+    background-color: #770e48;
+  }
+  .login-form #email_error,
+  .login-form #pass_error {
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #c62828;
+    background: rgba(255, 0, 0, 0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #ef9a9a;
+    display: none;
+  }
+  

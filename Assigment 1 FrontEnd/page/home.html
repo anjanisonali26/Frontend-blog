@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" href="../image/favicon.ico" />
+    <link rel="stylesheet" href="../css/home.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous"
+  />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">My Blog</a>
+      <div class="toggle" onclick="toggleMenu();"></div>
+      <ul class="menu">
+        <li><a href="#home-page" onclick="toggleMenu();">Home</a></li>
+        <li><a href="#aboutme-page" onclick="toggleMenu();">About Me</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Post</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        <li><a href="../page/login.html">LogOut</a></li>
+      </ul>
+    </header>
+    <section class="banner" id="home">
+      <div class="textBx">
+        <h2>Hi, I'm<br /><span>Anjani</span></h2>
+        <h3>I'm student in Salt Academy</h3>
+          <div class="btn_grp">
+            <div class="btn btn_info">Info</div>
+          </div>
+        <div class="alert_wrapper">
+          <div class="alert_backdrop"></div>
+          <div class="alert-inner">
+            <div class="alert_item alert_info">
+              <div class="icon data_icon">
+                <i class="fas fa-info-circle"></i>
+              </div>
+              <div class="data">
+                <p class="title"><span>WARNING</span></p>
+                <p class="sub">
+                  If you need help regarding Web Design, please contact the contact listed
+                </p>
+              </div>
+              <div class="icon close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="home-page" id="home-page">
+
+      <!-- Left Column -->
+
+      <div class="content">
+        <div class="left-column">
+          <div class="contentBx w50">
+            <h3>My Favorite Place</h3>
+            <img src="../image/bromo1.jpg" alt="" />
+
+            <p id="readless">
+              This lake is one of the masterpieces of natural beauty that is
+              bestowed by the Almighty on the land of East Java. Before heading
+              to the peak of Semeru, it is at this lake location that climbers
+              will usually prepare tents to rest or spend the night. While
+              gathering energy, they can enjoy the beauty of the lake or explore
+              the beautiful natural scenery around with a camera. For those of
+              you who have never been to Ranu Kumbolo and are interested in
+              setting foot there, before leaving, please refer to some important
+              information regarding Kumbolo Lake in the following article. This
+              lake is located in the Bromo Tengger Semeru National Park
+              (TNBTS).<span id="dots">....</span>
+            </p>
+            <p id="readmore">
+              Located at an altitude of appoximately 2,400 meters above sea
+              level, the air temperature in this area is very cool and
+              comfortable to relax. If you have time to come to the location of
+              this lake during the holiday season, you will find many climbers
+              or tourists who deliberately come just to camp and spend their
+              holiday time in this place. Ranu Kumbolo does offer a beauty that
+              is second to none. In addition to the exotic form of the lake that
+              spoils the eye, in the afternoon we can also watch the sunset
+              moment that appears between the peaks of two mountains from the
+              lake location. In addition, for visitors who like photography,
+              this place is a paradise to channel that hobby.
+            </p>
+
+            <button id="Read" onclick="Read()">Read More</button>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+
+        <div class="right-column">
+          <div class="contentBx w50">
+            <img src="../image/Anjani.jpg" alt="" class="img" />
+            <h2>Hello !</h2>
+            <p>
+              Welcome to my blog. I'm Anjani Sonali Bendre who created this blog
+              with all my heart to learn HTML, CSS and JavaScript. Hopefully the
+              knowledge I get can be useful. Thank you my mentors, Mr Jelang and
+              Mr Beni.<br />
+              (11 Sept '20)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="aboutme-page">
+      <div class="heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="aboutme">
+          <img src="../image/Anjani.jpg" alt="" />
+          <h2>Me</h2>
+          <p>
+            I am the 2nd child of 2 siblings. I'm 19th. And I am personally a hard worker, never give up. I really like challenges. And I am personally a thinker.
+        </div>
+        <div class="aboutme">
+          <img src="../image/family.jpg" alt="" />
+          <h2>My Family</h2>
+          <p>
+            My family is a family that always provides support for me. I am very proud and happy to be able to share the joys and sorrows with them, especially now that I have grown up, my childhood memories are so attached to my family.
+          </p>
+        </div>
+        <div class="aboutme">
+          <img src="../image/friend.JPG" alt="" />
+          <h2>My Friends</h2>
+          <p>
+            Not how often you face conflicts when you are with him, but how mature you are to find solutions together. Friends become a place to share fatigue, share sadness and never sell our secrets. Weak people are people who are unable to make friends but weaker people are people who waste the friends they already have
+          </p>
+        </div>
+        <div class="aboutme">
+          <img src="../image/telkom.png" alt="" />
+          <h2>SMK Telkom Malang</h2>
+          <p>
+            SMK Telkom Malang is the pioneer of the first vocational high school in Indonesia in the field of Technology and Information Technology. Experienced from 1992 which has been accredited "A" and has a quality standard of ISO 9001: 2015. SMK Telkom Malang is also an adiwiyata school that applies the principles of green schools, this further provides a comfortable atmosphere for school residents.
+          </p>
+        </div>
+        <div class="aboutme">
+          <img src="../image/smp.jpg" alt="" />
+          <h2>SMPN 01 Pasirian</h2>
+          <p>
+            SMPN 01 Pasirian is a school located in Lumajang district, this school has made many memories for me, with the beautiful mountain view next to my school, adding to a beautiful impression.
+          </p>
+        </div>
+        <div class="aboutme">
+          <img src="../image/sd.jpg" alt="" />
+          <h2>SDN Pasirian 01</h2>
+          <p>
+            SMP Pasirian 01, is my school which is not far from my house. At this school I have very high socialization, at this school I learn to adapt to many friends.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="work" id="work">
+      <div class="heading white">
+        <h2>New Post</h2>
+      </div>
+      <div class="content" id="content2">
+        <div class="workBx" id="img2">
+          <img src="../image/maldives.jpg" alt="" />
+        </div>
+
+        <!-- Form Comment -->
+
+        <div id="caption">
+          <p>
+            <b>Anjani  (11 Sept '20):</b> Travel may bring you loneliness, fatigue and danger.
+            But the journey will also take you at an essential turn.
+          </p>
+        </div>
+        <form id="commentForm">
+          <input
+            id="name"
+            type="text"
+            name="name"
+            required
+            class="name"
+            placeholder="Your Name"
+          /><br />
+          <input
+            id="comment"
+            type="text"
+            name="comment"
+            required
+            class="comment"
+            placeholder="Comment..."
+          /><br />
+          <input type="submit" value="Comment" class="btn2" />
+        </form>
+    </section>
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2>Contact Me</h2>
+        <p>If you need help, please contact below.</p>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3 id="title-contact">Contact Info</h3>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="icon"><i class="fa fa-map-marker"></i></div>
+              <div class="text">
+                <h3>Address</h3>
+                <p>Lumajang, Pasirian.</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-phone"></i></div>
+              <div class="text">
+                <h3>Phone</h3>
+                <p>082264714060</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon"><i class="fa fa-envelope-o"></i></div>
+              <div class="text">
+                <h3>Email</h3>
+                <p>anjanibendre260201@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="social-menu">
+            <ul>
+              <li>
+                <a href="https://www.facebook.com/anjani.bendre26/"
+                  ><i class="fa fa-facebook"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com/mbaknjan"
+                  ><i class="fa fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/anjanisb__/"
+                  ><i class="fa fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/anjani-sonali-bendre-b99295184/"
+                  ><i class="fa fa-linkedin"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>AnjaniSonaliBendre@SaltAcademy</p>
+    </div>
+    <script src="../js/home.js"></script>
+  </body>
+</html>
